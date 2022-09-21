@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            CircularProgressIndicator(), //to show the addition of a very long number is done without a glitch in the app //in a seperate isolate
+            CircularProgressIndicator(), //to show the addition of a very long number using a loop with many iterations is done without a glitch in the app //in a seperate isolate
             SizedBox(
               height: 20,
             ),
