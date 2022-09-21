@@ -80,9 +80,3 @@ void incrementCounter(SendPort sendPort) {
   }
   sendPort.send(c);
 }
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/soniyanw/training_isolates.git
-git push -u origin main
